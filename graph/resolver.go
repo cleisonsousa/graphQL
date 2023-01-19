@@ -8,4 +8,5 @@ import "github.com/cleisonsousa/graphQL/internal/database"
 
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB   *database.Course
 }
